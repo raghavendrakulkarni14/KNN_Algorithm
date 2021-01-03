@@ -5,7 +5,6 @@ import pickle
 
 knn_model=pickle.load(open('KNNModel.pkl','rb'))
 
-def classify(num):
 def main():
     st.title("Streamlit Tutorial")
     html_temp = """
